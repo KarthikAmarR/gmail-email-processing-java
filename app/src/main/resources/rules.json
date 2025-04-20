@@ -1,0 +1,21 @@
+[
+    {
+      "field": "from",
+      "predicate": "contains",
+      "value": "tenmails.com",
+      "actions": ["move to Inbox", "mark as read"]
+    },
+    {
+      "field": "subject",
+      "predicate": "contains",
+      "value": "Interview",
+      "actions": ["mark as read"]
+    },
+    {
+      "field": "received",
+      "predicate": "less than",
+      "value": "2",
+      "actions": ["move to Important"]
+    }
+  ]
+  
