@@ -62,7 +62,7 @@ public class GmailFetcher {
 
     private static Email processEmail(Gmail service, Message msg) throws IOException {
         String msgId = msg.getId();
-        System.out.println("🔍 Processing email with Gmail ID: " + msgId);
+        System.out.println("Processing email with Gmail ID: " + msgId);
 
         Message fullMessage = service.users().messages().get("me", msgId).execute();
 

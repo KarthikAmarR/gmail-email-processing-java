@@ -19,7 +19,7 @@ public class DatabaseSetup {
                     is_read BOOLEAN DEFAULT 0
                 );
             """);
-            System.out.println("✅ Database and table created successfully!");
+            System.out.println("Database and table created successfully!");
         } catch (Exception e) {
             e.printStackTrace();
         }

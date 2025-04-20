@@ -26,7 +26,7 @@ public class App {
                     break;
 
                 case "process":
-                    GmailProcessor.processEmails(); // 🆕 new entry point
+                    GmailProcessor.processEmails();
                     break;
 
                 default:

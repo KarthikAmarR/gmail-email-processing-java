@@ -1,20 +1,29 @@
+# 📧 Gmail Email Processor (Java)
 
-# Gmail Email Processing Script
+This project connects to the Gmail API, fetches emails, and processes them based on user-defined rules. It's designed with modular components, clean code practices, and is ready for extension or integration into larger systems.
 
-## Description
+---
 
-This Java application connects to the Gmail API to authenticate a user, fetch and display their Gmail labels, and process emails based on defined rules. The project is structured with best practices and uses Gradle as the build tool.
+## 🚀 Features
 
-## Features
+- ✅ Authenticate with Gmail using OAuth 2.0
+- 📥 Fetch emails from the inbox
+- 🏷️ List available Gmail labels
+- 📚 Process emails based on rules (defined in `rules.json`)
+- 🗂️ Store email metadata in a local SQLite database
+- 🔍 Modular services and POJO classes
+- 🧪 Includes unit testing with JUnit
 
-- **Email Fetching:** Retrieves emails from your Gmail inbox using the Gmail API.
-- **Rule-Based Processing:** Processes emails based on conditions defined in a JSON file.
-- **Actions:** Supports actions like moving emails to specific folders and marking them as read or unread.
+---
 
-## Installation
+## 🛠️ Tech Stack
 
-1. **Clone the Repository:**
+- **Java 17**
+- **Gradle**
+- **Gmail API (Google Java Client)**
+- **SQLite (via JDBC)**
+- **JUnit 5** for testing
 
-   ```bash
-   git clone 
-   cd GMAIL_API_PROJECT
+---
+
+## 📁 Project Structure
