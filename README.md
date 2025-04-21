@@ -12,7 +12,6 @@ This project connects to the Gmail API, fetches emails, and processes them based
 - 📚 Process emails based on rules (defined in `rules.json`)
 - 🗂️ Store email metadata in a local SQLite database
 - 🔍 Modular services and POJO classes
-- 🧪 Includes unit testing with JUnit
 
 ---
 
